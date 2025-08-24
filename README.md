@@ -88,6 +88,46 @@ This module allows real-time sales registration linked to a customer, with autom
 
 ---
 
+### 🖼️ Stock Interface
+
+<img src="https://github.com/VelazquezCH/VelazquezCH/blob/main/stock.png" alt="Laura Main Interface" style="height:480px; object-fit:cover;" />
+
+---
+
+### 🧩 Key Features
+
+| Element            | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| **Barcode**         | Unique identifier for each product in the inventory.                       |
+| **Quantity**        | Number of units to be sold (default value: 1).                             |
+| **Accept Button**   | Adds the product to the `Treeview` table with its quantity and price.      |
+| **Remove Button**   | Deletes the selected row from the table.                                   |
+| **Save Stock Button**| Saves the sale, updates stock, and clears the table.                      |
+| **Cancel Button**   | Cancel the current.                                                      |
+
+---
+
+### 🖼️ Filter Interface
+
+<img src="https://github.com/VelazquezCH/VelazquezCH/blob/main/filter.png" alt="Laura Main Interface" style="height:480px; object-fit:cover;" />
+
+---
+
+### 🧩 Key Features
+
+| Element             | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| **Start Date Calendar** | Allows selection of the initial date for filtering .                                                |
+| **End date Calendar**  |  Allows selection of the final date for filtering.                                          |
+| **Sales Table Treeviews** | Display products sold winthin the selection date range.                                      |
+| **Search Button** | Execute the search based on the selection dates.                                                           |
+### 🔄 Usage Flow
+1. Select the start and end dates using the calendars.
+2. Click the **Search Button** to display sales data.
+3. Review the table to analyze product performance.
+
+---
+
 ### 🧠 Technical Highlights
 
 - Clear modularization (`stock.py`, `db_manager.py`, `logger.py`)
@@ -95,6 +135,8 @@ This module allows real-time sales registration linked to a customer, with autom
 - Automatic event logging
 - MySQL integration for data persistence
 - Functional and technical documentation for users and interviews
+
+  
 
 ---
 
