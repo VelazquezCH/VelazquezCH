@@ -70,7 +70,7 @@ This module allows real-time sales registration linked to a customer, with autom
 
 ### 🖼️ Main Interface
 
-<img src="https://github.com/cristianvelazquez/cristianvelazquez/blob/main/capturas/laura_principal.png" alt="Laura Main Interface" style="height:480px; object-fit:cover;" />
+<img src="https://github.com/VelazquezCH/VelazquezCH/blob/main/laura_principal.png" alt="Laura Main Interface" style="height:480px; object-fit:cover;" />
 
 ---
 
