@@ -56,3 +56,46 @@ I build tools with social impact, automate processes, and share what I learn.
 - 🌐 Portfolio: 
 
 ---
+
+
+
+## 🛍️ Laura Project – Sales Management System
+
+**Laura** is a graphical interface developed in Python using Tkinter, designed for small businesses that need to register sales, manage stock, and visualize totals quickly and reliably.
+
+### 🎯 Purpose
+This module allows real-time sales registration linked to a customer, with automatic stock control and total visualization. It is designed to be intuitive, modular, and easily integrable with MySQL databases.
+
+---
+
+### 🖼️ Main Interface
+
+<img src="https://github.com/cristianvelazquez/cristianvelazquez/blob/main/capturas/laura_principal.png" alt="Laura Main Interface" style="height:480px; object-fit:cover;" />
+
+---
+
+### 🧩 Key Features
+
+| Element            | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| **Client Name**     | Field to enter the customer's identifier.                                   |
+| **Barcode**         | Unique identifier for each product in the store.                            |
+| **Quantity**        | Number of units to be sold (default value: 1).                              |
+| **Add Button**      | Adds the product to the `Treeview` table with its quantity and price.       |
+| **Remove Button**   | Deletes the selected row from the table.                                    |
+| **Confirm Button**  | Saves the sale, updates stock, and clears the table.                        |
+| **Total Label**     | Displays the total amount of the sale in real time.                         |
+
+---
+
+### 🧠 Technical Highlights
+
+- Clear modularization (`stock.py`, `db_manager.py`, `logger.py`)
+- Input validation and error handling
+- Automatic event logging
+- MySQL integration for data persistence
+- Functional and technical documentation for users and interviews
+
+---
+
+> 💡 *Laura was designed with real-world use cases in mind, combining ethical purpose with technical precision. It reflects a commitment to clean architecture, reproducibility, and user-friendly design.*
